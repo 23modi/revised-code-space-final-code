@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My First Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <img id="navlogo" src="https://i.imgur.com/m1wXjqw.png" alt="logo">
+    </div>
+    <img id="banner" src="banner.jpg" alt="Banner">
+    <h1>About Jovian</h1>
+    <div id="about">
+
+        <div id="description">
+
+            <p>At Jovian, we're on a mission to build
+                the world's most highly reputed technical
+                university, and we're building completely
+                online. We offer several beginner friendly
+                courses that are taken by 300,000+ registered
+                users.
+            </p>
+            <p>We also offer 2 industry-focused bootcamps:
+            <ol>
+                <li>
+                    <a href="https://www.jovian.com/full-stack-developer-bootcamp">
+                        Jovian Full Stack Developer Bootcamp
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.jovian.com/data-science-bootcamp">
+                        Jovian Data Science Bootcamp
+                    </a>
+                </li>
+            </ol>
+            </p>
+        </div>
+        <img src="team.jpg" height="240" alt="team" id="team">
+
+    </div>
+
+
+
+
+    <h1>Job Opportunities</h2>
+        <div id="jobs">
+            <table id="jobs tittle">
+                <tr class="jobs-header-row">
+                    <th rowspan="2"> Job Tittle</th>
+                    <th colspan="2"> Location</th>
+                    <th rowspan="2">Salary</th>
+                    <th rowspan="2">Posted On</th>
+                <tr class=" jobs-header-row">
+                    <th>City</th>
+                    <th>Country</th>
+                </tr>
+                </tr>
+                <tr class="jobs-data-row">
+                    <td>Frontend Developer</td>
+                    <td> Bengaluru</td>
+                    <td>India</td>
+                    <td> 12,00,000</td>
+                    <td>Mar 3, 2023</td>
+                </tr>
+                <tr class="jobs-data-row">
+                    <td> Fullstack Developer</td>
+                    <td> NewDelhi</td>
+                    <td>India</td>
+                    <td>15,00,000</td>
+                    <td>Feb 1 2023</td< /tr>
+                <tr class="jobs-data-row">
+                    <td> Data Scientist</td>
+                    <td> San Fransisco </td>
+                    <td>USA</td>
+                    <td> 17,5000</td>
+                    <td>Dec 22, 2023</td>
+                </tr>
+                <tr class="jobs-data-row">
+                    <td>Machine Learning Engineer</td>
+                    <td colspan="2">Remote</td>
+                    <td>80,000</td>
+                    <td>Sep 19, 2022</td>
+                </tr>
+                </tr>
+            </table>
+
+
+            <div id="application">
+                <h2>Submit your application</h3>
+                    <form id="application-form">
+                        <div class="forn-holder">
+                            <label for="Name">Full Name</label><br>
+                            <input type="text" id="name" name="Full Name" required placeholder="john dere">
+                        </div>
+                        <div class="forn-holder">
+                            <label for="Email">Email</label><br>
+                            <input type="email" id="Email" name="Email Adress" required placeholder="jvan@example.comm">
+                        </div>
+                        <div class="forn-holder">
+                            <label for="Phone number">phone number</label><br>
+                            <input type="number" id="phone number" name="phone number" required placeholder="+25412345">
+                        </div>
+                        <div class="forn-holder">
+                            <label for="date of birth"> Date of birth</label><br>
+                            <input type="date" id="date of birth" name="date ofbirth" required>
+                        </div>
+                        <div class="forn-holder">
+                            <label for="position">Position applied for</label><br>
+                            <select name="position" id="position applied for" required>
+                                <option value="FrontendFrontend Developer ">Frontend Developer</option>
+                                <option value="Fullstack Developer">Fullstack Developer</option>
+                                <option value="Data Scientist">Data Scientist</option>
+                                <option value="Machine Learning Engineer">Machine Learning Engineer</option>
+                            </select>
+
+                        </div>
+                        <div class="forn-holder">
+                            <label for="resume"></label><br>
+                            <input type="file" id="resume" name="resume" accept="pdf,.doc, .docx" required>
+                        </div>
+                        <div class="forn-holder">
+                            <label for="cover letter">cover letter</label><br>
+                            <textarea name="cover letter" id="cover letter" rows="10" required
+                                placeholder="Explain what makes you suitable for this job...."></textarea>
+                        </div>
+                        <div class="forn-holder">
+                            <label for="terms">
+                                <input type="checkbox" id="terms" name="terms and conditions" required> I agree to the
+                                terms and conditions.
+                            </label>
+                        </div>
+                        <div class="forn-holder">
+                            <input type="submit" value="submit apllication">
+                        </div>
+                    </form>
+            </div>
+            <div id="footer">
+                <ul id="footer-links">
+                    <li>
+                        <a href="https://jovian.com/learn" target="_blank">
+                            Courses
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://jovian.com/learn" target="_blank">
+                            Programs
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/@jovianhq" target="_blank">
+                            YouTube
+                        </a>
+                    </li>
+                </ul>
+                <span id="copyright">© 2023, Jovian</span>
+            </div>
+</body>
+
+</html>
